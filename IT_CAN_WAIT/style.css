@@ -1,0 +1,84 @@
+/*=== DEFAULT CSS ===*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*=== GLOBALS ===*/
+#container,
+.background {
+	width: 728px;
+	height: 90px;
+}
+#container {
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 2.5%;
+}
+#container div,
+#container img,
+#container a {
+	position: absolute;
+}
+
+/*=== STATIC(GLOBAL) ELEMENTS ===*/
+.background {
+	background: url(img/background.png) no-repeat;
+}
+.sprite {
+	background: url(img/sprite.png);
+	
+}
+/*=== ANIMATED ELEMENTS for all frames ===*/
+#eyes {
+	top: 31px;
+	left: 503px;
+}
+#it-can-wait {
+	top: 28px;
+	left: 602px;
+}
+#learn-more {
+	width: 55px;
+	height: 8px;
+	background: url(img/learn-more.png)no-repeat;
+	top: 69px;
+	left: 619px;
+}
+/*=== FRAME 1 ===*/
+#search {
+	width: 371px;
+	height: 36px;
+	background-position: 0px 36px;
+	top: 25px;
+	left: 44px;
+}
+#post {
+	width: 336px;
+	height: 36px;
+	background-position: 0px 96px;
+	top: 25px;
+	left: 44px;
+}
+#glance {
+	width: 371px;
+	height: 36px;
+	background-position: 0px 156px;	
+	top: 25px;
+	left: 44px;
+}
+#text {
+	width: 328px;
+	height: 36px;
+	background-position: 0px 216px;	
+	top: 25px;
+	left: 44px;
+}
+#email {
+	width: 351px;
+	height: 36px;
+	background-position: 0px 276px;	
+	top: 25px;
+	left: 44px;
+}

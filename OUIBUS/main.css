@@ -1,0 +1,178 @@
+/* 
+======= DEFAULT CSS =======
+*/
+
+html,
+body,
+div,
+span,
+p,
+a,
+del,
+em,
+img,
+ol,
+ul,
+li,
+fieldset,
+form,
+label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+}
+
+.container,
+.clickScreen,
+.border {
+    width: 728px;
+    height: 90px;
+    box-sizing: border-box;
+}
+
+.container div,
+.container img {
+    position: absolute;
+}
+
+.border {
+    border: 1px solid #000;
+}
+
+
+/* 
+======= CUSRTOM CSS =======
+*/
+
+.clickScreen,
+.replayBtn,
+.ctaContainer {
+    cursor: pointer;
+}
+
+.logo,
+.logo2 {
+    left: 13px;
+    top: -14px;
+}
+
+.picto1 {
+    left: 677px;
+    top: 4px;
+}
+
+.txt1 {
+    left: 445px;
+    top: 21px;
+}
+
+.txt2 {
+    left: 145px;
+    top: 17px;
+}
+
+.txt3 {
+    left: 471px;
+    top: 27px;
+}
+
+.picto2 {
+    left: 657px;
+    top: 5px;
+}
+
+.picto3 {
+    left: 687px;
+    top: 5px;
+}
+
+.txt4 {
+    left: 590px;
+    top: 27px;
+}
+
+.txt5 {
+    left: 138px;
+    top: 10px;
+}
+
+.txt6 {
+    left: 372px;
+    top: 10px;
+}
+
+.txt7 {
+    left: 604px;
+    top: 10px;
+}
+
+.txt8 {
+    left: 398px;
+    top: 6px;
+}
+
+.picto4 {
+    left: 656px;
+    top: 5px;
+}
+
+.picto5 {
+    left: 687px;
+    top: 5px;
+}
+
+.picto6 {
+    left: 215px;
+    top: 163px;
+}
+
+.picto7 {
+    left: 348px;
+    top: 23px;
+}
+
+.small-txt {
+    left: 595px;
+    top: 81px;
+}
+
+.ctaContainer {
+    width: 111px;
+    height: 26px;
+    left: 604px;
+    top: 30px;
+    overflow: hidden;
+}
+
+.arrow {
+    left: 96px;
+    top: 9px;
+}
+
+.ctaBg {
+    width: 124px;
+    height: 30px;
+    left: 0;
+    top: 0;
+    background: #e4006d;
+    box-sizing: border-box;
+}
+
+.cta {
+    left: 0px;
+    top: 0px;
+}
+
+.cta-halo-1 {
+    opacity: 0.7;
+    top: -14px;
+    left: 113px;
+    width: 61px;
+    height: 64px;
+}

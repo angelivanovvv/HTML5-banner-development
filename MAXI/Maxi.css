@@ -1,0 +1,145 @@
+/* ======== DEFAULT CSS ======== */
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    background: white;
+    overflow: hidden;
+}
+.container div,
+.container img,
+.container button {
+    position: absolute;
+}
+.container,
+.border,
+.container div,
+.bg-exit {
+    width: 300px;
+    height: 600px;
+}
+/* ======== STATIC ELLEMENTS ======== */
+.bg-exit {
+    opacity: 0;
+    cursor: pointer;
+}
+.logo-gsk {
+    left: 248px;
+    top: 8px;
+}
+.logo-maxi {
+    left: 94px;
+    top: 494px;
+}
+/* ======== ANIMATED ELEMENTS ======== */
+/* background */
+.background {
+    background: url("img/background.jpg");
+}
+/* frame-1 */
+.txt-1-be-at {
+    left: 91px;
+    top: 80px;
+}
+/* frame-2 */
+.txt-2-lose {
+    left: 77px;
+    top: 114px;
+}
+.txt-3-eat {
+    left: 75px;
+    top: 224px;
+}
+.txt-4-get {
+    left: 108px;
+    top: 337px;
+}
+/* frame-3 */
+.txt-5-whatever {
+    left: 71px;
+    top: 125px;
+}
+.txt-6-we {
+    left: 80px;
+    top: 301px;
+}
+/* frame-4 */
+.txt-7-set {
+    left: 88px;
+    top: 46px;
+}
+.txt-8-mygoal {
+    left: 100px;
+    top: 346px;
+}
+.arrow {
+    left: 142px;
+    top: 406px;
+}
+/* zero opaciy for start */
+.txt-1-be-at,
+.txt-2-lose,
+.txt-3-eat,
+.txt-4-get,
+.txt-5-whatever,
+.txt-6-we,
+.txt-7-set,
+.txt-8-mygoal,
+.arrow {
+    opacity: 0;
+}
+
+/* ======== ANIMATIONS ======== */
+.background-anim {
+    -webkit-animation: background-anim 13s forwards linear;
+            animation: background-anim 13s forwards linear;
+}
+.fade-in-bounce {
+    -webkit-animation: fade-in-bounce 0.5s forwards ease-in-out;
+            animation: fade-in-bounce 0.5s forwards ease-in-out;
+}
+.fade-out {
+    -webkit-animation: fade-out 0.5s forwards ease-in-out;
+            animation: fade-out 0.5s forwards ease-in-out;
+}
+.arrow-container-anim {
+    -webkit-animation: arrow-container-anim 0.7s forwards ease-in-out 4;
+            animation: arrow-container-anim 0.7s forwards ease-in-out 4;
+}
+
+/* ======== @-WEBKIT-KEYFRAMES ======== */
+@-webkit-keyframes fade-in-bounce {
+     0% { -webkit-transform: translateY(10px);}
+    60% { -webkit-transform: translateY(-5px);}
+   100% { -webkit-transform: translateY(0); opacity: 1; }
+}
+@-webkit-keyframes background-anim {
+     0% { background-position: top left; }
+   100% { background-position: top right; }
+}
+@-webkit-keyframes fade-out {
+     0% { opacity: 1;}
+   100% { opacity: 0; }
+}
+@-webkit-keyframes arrow-container-anim {
+   75% { -webkit-transform: translateX(5px); opacity: 0; }
+}
+/* ======== @KEYFRAMES ======== */
+@keyframes fade-in-bounce {
+     0% { transform: translateY(10px);}
+    60% { transform: translateY(-5px);}
+   100% { transform: translateY(0); opacity: 1; }
+}
+@keyframes background-anim {
+     0% { background-position: top left; }
+   100% { background-position: top right; }
+}
+@keyframes fade-out {
+     0% { opacity: 1;}
+   100% { opacity: 0; }
+}
+@keyframes arrow-container-anim {
+   75% { transform: translateX(5px); opacity: 0; }
+}

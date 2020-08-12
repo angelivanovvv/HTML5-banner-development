@@ -1,0 +1,72 @@
+html,
+body,
+div,
+span,
+p,
+a,
+del,
+em,
+img,
+ol,
+ul,
+li,
+fieldset,
+form,
+label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+/*** DIMENTIONS ***/
+#container,
+.border,
+.bg_exit,
+.dust_container {
+    width: 300px;
+    height: 600px;
+}
+
+#container {
+    position: relative;
+    /*overflow: hidden;*/
+    display: none;
+    background-color: #000;
+}
+
+#container div,
+#container img,
+#container canvas {
+    position: absolute;
+}
+
+.border {
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+.bg_exit {
+    cursor: pointer;
+}
+
+.right_shot_container,
+.left_shot_container {
+    width: 45px;
+    height: 65px;
+}
+
+.middle_shot_container {
+    width: 53px;
+    height: 65px;
+}
+
+#input,
+#output {
+    top: 40px;
+    left: 82px;
+}
+
+#input {
+    opacity: 0;
+}

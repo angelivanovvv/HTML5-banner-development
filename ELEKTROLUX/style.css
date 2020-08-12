@@ -1,0 +1,137 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    background-color: #010f42;
+    overflow: hidden;
+    display: none;
+}
+
+.container,
+.border,
+.bg_exit {
+    width: 1000px;
+    height: 300px;
+}
+
+.cta {
+    cursor: pointer;
+}
+
+.container div,
+.container img,
+.container a {
+    position: absolute;
+}
+
+.mask {
+    width: 466px;
+    height: 300px;
+    left: 534px;
+    top: 0;
+    background-color: #010f42;
+}
+
+.copy_1,
+.copy_2 {
+    left: 586px;
+    top: 99px;
+}
+
+.logo {
+    left: 928px;
+    top: 15px;
+}
+
+.elektrolux {
+    left: 46px;
+    top: 124px;
+}
+
+.copy_3 {
+    left: 324px;
+    top: 51px;
+}
+
+.copy_4 {
+    left: 316px;
+    top: 95px;
+}
+
+.copy_5 {
+    left: 800px;
+    top: 74px;
+}
+
+.balloon_hat {
+    left: 758px;
+    top: 59px;
+}
+
+.line_1,
+.line_2,
+.line_3,
+.line_4,
+.line_5 {
+    background-color: #fff;
+}
+
+.line_1 {
+    width: 17px;
+    height: 2px;
+    left: 742px;
+    top: 77px;
+}
+
+.line_2 {
+    width: 2px;
+    height: 147px;
+    left: 742px;
+    top: 77px;
+}
+
+.line_3 {
+    width: 197px;
+    height: 2px;
+    left: 742px;
+    top: 222px;
+}
+
+.line_4 {
+    width: 2px;
+    height: 147px;
+    left: 937px;
+    top: 77px;
+}
+
+.line_5 {
+    width: 10px;
+    height: 2px;
+    left: 929px;
+    top: 77px;
+}
+
+.red_hot_plate {
+    left: 761px;
+    top: 108px;
+}
+
+.orange_hot_plate,
+.yellow_hot_plate {
+    left: 775px;
+    top: 116px;
+}
+
+.cta {
+    left: 401px;
+    top: 207px;
+}
+
+.border {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
